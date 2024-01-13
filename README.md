@@ -19,6 +19,7 @@
 - Edit `.env` (sesuaikan database, dll)
 - Migrate database: `php artisan migrate:fresh` 
   atau `php artisan migrate:fresh --seed` jika ingin dengan data awal 
+- Link storage project: `php artisan storage:link`
 - Optimize project: `php artisan optimize`
 - Start vite! `npm run dev`
 - Open new terminal
