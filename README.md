@@ -22,7 +22,7 @@
 - Link storage project: `php artisan storage:link`
 - Optimize project: `php artisan optimize`
 - Start vite! `npm run dev`
-- Open new terminal
+- Buka terminal baru
 - Start projet! `php artisan serve`
 
 ## Kelompok:
