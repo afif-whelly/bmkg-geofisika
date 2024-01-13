@@ -94,7 +94,7 @@
             x-transition.opacity x-cloak>
 
             <!-- Modal inner -->
-            <div class="w-full max-w-sm p-6 mx-auto mt-20 mb-10 text-left bg-white rounded-lg shadow-lg dark:bg-slate-800"
+            <div class="w-full max-w-md p-6 mx-auto mt-20 mb-10 text-left bg-white rounded-lg shadow-lg dark:bg-slate-800"
                 @click.away="showModalPermohonan = false" x-transition>
                 <!-- Title / Close-->
                 <div class="flex items-center justify-between mb-5">
@@ -146,8 +146,7 @@
 
                     <div x-show="data.status = `Belum Lunas`" @click="expanded = ! expanded"
                     class="p-3 mt-5 text-yellow-800 bg-yellow-200 rounded hover:cursor-pointer">
-                    <h3 class="block font-bold">Panduan
-                        Pembayaran:</h3>
+                    <h3 class="block font-bold">Panduan Pembayaran:</h3>
                     <p x-show="expanded" x-collapse>
                         Untuk memudahkan proses pembayaran, berikut adalah panduan pembayaran kami:
                         <br><br>
